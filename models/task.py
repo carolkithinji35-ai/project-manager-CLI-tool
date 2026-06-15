@@ -1,3 +1,5 @@
+from dateutil.parser import parse
+from datetime import datetime
 class Task:
     
     # Represents a task in a project.
@@ -13,6 +15,7 @@ class Task:
         self.priority = priority if priority in self.VALID_PRIORITIES else "medium"
         self._status = "todo"
         self._assigned_to = ""
+        self.created_at = datetime.now().isoformat()
     
     def complete(self):
         """mark task as complete"""
@@ -46,7 +49,8 @@ class Task:
             "description": self.description,
             "priority": self.priority,
             "status": self._status,
-            "assigned_to": self._assigned_to
+            "assigned_to": self._assigned_to,
+            "created_at": self.created_at
         }
     
     @classmethod
@@ -60,6 +64,7 @@ class Task:
         )
         task._status = data.get("status", "todo")
         task._assigned_to = data.get("assigned_to", "")
+        task.created_at = data.get("created_at","")
         return task
     
     def __str__(self):

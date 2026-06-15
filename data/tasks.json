@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Design mockups",
+    "project_title": "Website Redesign",
+    "description": "Create Figma mockups for homepage",
+    "priority": "high",
+    "status": "in_progress",
+    "assigned_to": "Carol",
+    "created_at": ""
+  },
+  {
+    "title": "Write HTML",
+    "project_title": "Website Redesign",
+    "description": "Convert mockups to HTML/CSS",
+    "priority": "medium",
+    "status": "todo",
+    "assigned_to": "",
+    "created_at": ""
+  }
+]
