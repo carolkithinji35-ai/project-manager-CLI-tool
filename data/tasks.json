@@ -1,20 +1,11 @@
 [
   {
-    "title": "Design mockups",
-    "project_title": "Website Redesign",
-    "description": "Create Figma mockups for homepage",
-    "priority": "high",
-    "status": "in_progress",
-    "assigned_to": "Carol",
-    "created_at": ""
-  },
-  {
-    "title": "Write HTML",
-    "project_title": "Website Redesign",
-    "description": "Convert mockups to HTML/CSS",
+    "title": "TestTask",
+    "project_title": "TestProject",
+    "description": "",
     "priority": "medium",
     "status": "todo",
-    "assigned_to": "",
-    "created_at": ""
+    "assigned_to": "Eve",
+    "created_at": "2026-06-16T00:18:18.386428"
   }
 ]

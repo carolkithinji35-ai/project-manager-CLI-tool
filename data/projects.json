@@ -1,9 +1,11 @@
 [
   {
-    "title": "Website Redesign",
-    "owner_name": "Carol",
-    "description": "Redesign the company homepage",
-    "tasks": ["Design mockups", "Write HTML"],
+    "title": "TestProject",
+    "owner_name": "Eve",
+    "description": "",
+    "tasks": [
+      "TestTask"
+    ],
     "status": "active"
   }
 ]

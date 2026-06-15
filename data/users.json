@@ -1,7 +1,9 @@
 [
   {
-    "name": "Carol",
-    "email": "carol@example.com",
-    "projects": ["Website Redesign"]
+    "name": "Eve",
+    "email": "",
+    "projects": [
+      "TestProject"
+    ]
   }
 ]
