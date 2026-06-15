@@ -4,7 +4,7 @@ A command-line tool to manage users, projects, and tasks.
 
 ## Setup
 
-```bash
+
 # Clone the repository
 git clone https://github.com/carolkithinji35-ai/project-manager-CLI-tool.git
 cd project-manager-CLI-tool
@@ -55,3 +55,23 @@ python3 main.py --help
 
 # Run all 20 unit tests to verify everything works
 python3 -m pytest tests/test_project.py -v
+
+
+## Project Structure
+
+project-manager-cli/
+├── main.py              
+├── cli.py               
+├── models/
+│   ├── __init__.py      
+│   ├── user.py          
+│   ├── project.py       
+│   └── task.py          
+├── utils/
+│   ├── __init__.py     
+│   └── file_handler.py  
+├── tests/
+│   ├── __init__.py      
+│   └── test_project.py  
+├── data/                
+└── requirements.txt     
