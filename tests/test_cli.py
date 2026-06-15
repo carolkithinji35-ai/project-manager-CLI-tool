@@ -1,5 +1,4 @@
 from cli import ProjectManagerCLI
-import pytest
 import os
 import sys
 
